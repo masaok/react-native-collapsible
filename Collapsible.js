@@ -13,7 +13,7 @@ export default class Collapsible extends Component {
     enablePointerEvents: PropTypes.bool,
     duration: PropTypes.number,
     easing: PropTypes.oneOfType([PropTypes.string, PropTypes.func]),
-    style: ViewPropTypes.style,
+    style: PropTypes.style,
     onAnimationEnd: PropTypes.func,
     children: PropTypes.node,
   };
